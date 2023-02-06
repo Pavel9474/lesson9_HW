@@ -1,7 +1,7 @@
 import telebot
 import requests
 import random
-bot=telebot.TeleBot('5897261595:AAGTJX0TOAAtWZVM13-QjpCcAdZZyb1LZBU', parse_mode=None)
+bot=telebot.TeleBot('', parse_mode=None)
 command_list=['/start', '/help', '/hello', '/goodbye', '/calc', '/number']
 game = False
 
